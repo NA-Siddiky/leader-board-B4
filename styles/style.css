@@ -27,7 +27,6 @@ hr {
 .fas {
   font-size: 24px;
   color: whitesmoke;
-  margin-left: 20px;
 }
 
 /* navbar */
@@ -63,8 +62,18 @@ hr {
 }
 
 .nav-icon {
+  width: 100px;
   display: flex;
   align-items: center;
+  margin-left: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-icon-text {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
 }
 
 /* top players style*/
@@ -139,7 +148,7 @@ hr {
 }
 .course {
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   box-shadow: 7px 5px 5px 7px #8888880e;
 }
 .course-banner {
